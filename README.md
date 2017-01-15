@@ -1,4 +1,4 @@
-# MCP79410_Timer
+# LM35
 Simple library to read the value from an LM35 as either:
 
 * the raw reading in millivolts
