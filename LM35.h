@@ -6,6 +6,7 @@
 class LM35 {
   public:
     LM35(byte lm35Address);
+    LM35(void);
     float celsius();
     float fahrenhiet();
     float kelvin();

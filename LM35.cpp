@@ -6,6 +6,11 @@ LM35::LM35(byte lm35Address){
   _address = lm35Address;
 }
 
+LM35::LM35(void){
+  analogReference(INTERNAL);
+  _address = A0;
+}
+
 int LM35::read(){
   return analogRead(_address);
 }
